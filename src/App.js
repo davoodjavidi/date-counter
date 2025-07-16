@@ -12,7 +12,7 @@ function Counter() {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(1);
 
-  const date = new Date("june 21 2027");
+  const date = new Date("july 13 2025");
   date.setDate(date.getDate() + count);
 
   return (
